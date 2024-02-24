@@ -1,0 +1,46 @@
+// 1. Looping a triangle
+for(let n = 0; n <7; n++){
+    console.log("#".repeat(n));
+}
+
+// 2. FizzBuzz
+for (let n = 0; n < 100; n++){
+    // console.log(n);
+    if(n % 3 === 0 && n % 5 === 0){
+        console.log("FizzBuzz");
+    } else if(n % 3 === 0){
+        console.log("Fizz");
+    } else if(n % 5 === 0){
+        console.log("Buzz");
+    } else {
+        console.log(n);
+    }
+}
+
+// 3. Chess board - part 1
+let str = "";
+for (let n = 0; n < 7; n++){
+    
+    if(n % 2 === 0){
+        str += " # # # #\n";
+    }
+    else {
+        str += "# # # # \n";
+    }
+    // console.log(str);
+}
+console.log(str);
+
+// 4. Chess board - part 2
+let size = Number(prompt("Enter the size of the chess board: "));
+for (let n = 0; n < size; n++){
+    let str = "";
+    for (let i = 0; i < size; i++){
+        if((n + i) % 2 === 0){
+            str += " ";
+        } else {
+            str += "#";
+        }
+    }
+    console.log(str);
+}
