@@ -1,0 +1,21 @@
+{
+  "name": "fluent-javascript",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "exercises and projects for the book eloquent javascript, just with more added zest to it is fluent",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-it-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fluent-javascript"
+  },
+  "keywords": [
+    "js",
+    "learning",
+    "eloquent-javascript"
+  ],
+  "author": "matt lubrano",
+  "license": "ISC"
+}
